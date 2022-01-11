@@ -52,4 +52,14 @@ Je réalise le formulaire : pseudo et mdp
 Je fais une requete pour recuperer le mdp si le pseudo existe
     -> si le pseudo n'existe pas, on renvoi un msg d'erreur (le pseudo n'existe pas)
     -> si le pseudo existe, on verifie si le mdp est bon en utilisant password_verif()
-    
+
+# Gestion membre
+
+La page est accessible uniquement aux admins.
+
+1- Dans gestion membre, on affiche un tableau avec tous les utilisateurs du site
+2- Creer dans le tableau une colonne action et dans cette colonne ajouter un bouton
+    -> Nommer admin/supprimer admin
+    -> Creer un bouton supprimer membre
+
+

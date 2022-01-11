@@ -13,8 +13,6 @@
                     <?php
                         if(!is_connect()){
                     ?>
-                    
-
                     <li class="nav-item">
                         <a class="nav-link" href="<?=URL?>/inscription.php">Inscription</a>
                     </li>
@@ -42,7 +40,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= URL ?>/admin/gestion_membre.php">Gestion Membre</a>
                     </li>
-
                     <?php
                 }
                     ?>

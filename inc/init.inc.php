@@ -25,10 +25,6 @@ $msg = "";
 
 
 // On définit l'URL du site web
-
-
-define("URL", "http://localhost/php-1122/15-Projet");
-
-
 //On definie le chemin du fichier qui sera telechargé
 define("UPLOADS_FILES", $_SERVER["DOCUMENT_ROOT"] . "/PHP-1122/15-projet/uploads");
+define("URL", "http://localhost/php-1122/15-Projet");
