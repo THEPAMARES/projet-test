@@ -1,6 +1,6 @@
-<?php
+<?php 
 
-//Connexion de la bdd
+// Connexion à la BDD
 
 $dsn = 'mysql:dbname=projet_librairie;host=localhost;charset=UTF8';
 $user = 'root';
@@ -21,15 +21,14 @@ session_start();
 
 // Initialiser la variable $msg
 
-$msg="";
+$msg = "";
 
 
-// Definir l'url du site web
+// On définit l'URL du site web
 
 
+define("URL", "http://localhost/php-1122/15-Projet");
 
 
-
-define("URL","http://localhost/PHP-1122/15-projet");
-
-?>
+//On definie le chemin du fichier qui sera telechargé
+define("UPLOADS_FILES", $_SERVER["DOCUMENT_ROOT"] . "/PHP-1122/15-projet/uploads");
